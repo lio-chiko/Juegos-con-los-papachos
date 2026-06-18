@@ -1,0 +1,781 @@
+[02:57:41] [main/INFO]: Loading Minecraft 1.16.5 with Fabric Loader 0.18.2
+[02:57:41] [main/INFO]: Loading 74 mods:
+	- architectury 1.32.68
+	- betterfurnacesreforged 1.1.3
+	- cardinal-components 2.8.3
+	   |-- cardinal-components-base 2.8.3
+	   |-- cardinal-components-block 2.8.3
+	   |-- cardinal-components-chunk 2.8.3
+	   |-- cardinal-components-entity 2.8.3
+	   |-- cardinal-components-item 2.8.3
+	   |-- cardinal-components-level 2.8.3
+	   |-- cardinal-components-scoreboard 2.8.3
+	   |-- cardinal-components-util 2.8.3
+	   \-- cardinal-components-world 2.8.3
+	- cloth-api 1.6.59
+	   |-- cloth-armor-api-v1 1.6.59
+	   |-- cloth-client-events-v0 1.6.59
+	   |-- cloth-common-events-v1 1.6.59
+	   |-- cloth-datagen-api-v1 1.6.59
+	   |-- cloth-durability-bar-api-v1 1.6.59
+	   |-- cloth-dynamic-registry-api-v1 1.6.59
+	   |-- cloth-scissors-api-v1 1.6.59
+	   \-- cloth-utils-v1 1.6.59
+	- cloth-config2 4.17.101
+	   \-- cloth-basic-math 0.6.1
+	- diggusmaximus 1.4.2-1.16.3
+	   \-- kyrptconfig 1.1.4-1.16
+	        \-- blue_endless_jankson 1.2.0
+	- fabric 0.42.0+1.16
+	   |-- fabric-api-base 0.4.0+3cc0f0907d
+	   |-- fabric-api-lookup-api-v1 1.3.1+3cc0f0907d
+	   |-- fabric-biome-api-v1 3.1.13+3cc0f0907d
+	   |-- fabric-blockrenderlayer-v1 1.1.6+3cc0f0907d
+	   |-- fabric-command-api-v1 1.1.3+3cc0f0907d
+	   |-- fabric-commands-v0 0.2.3+3cc0f0907d
+	   |-- fabric-containers-v0 0.1.12+3cc0f0907d
+	   |-- fabric-content-registries-v0 0.2.5+3cc0f0907d
+	   |-- fabric-crash-report-info-v1 0.1.4+3cc0f0907d
+	   |-- fabric-dimensions-v1 2.0.8+3cc0f0907d
+	   |-- fabric-entity-events-v1 1.2.4+3cc0f0907d
+	   |-- fabric-events-interaction-v0 0.4.5+3cc0f0907d
+	   |-- fabric-events-lifecycle-v0 0.2.2+3cc0f0907d
+	   |-- fabric-game-rule-api-v1 1.0.7+3cc0f0907d
+	   |-- fabric-item-api-v1 1.2.2+3cc0f0907d
+	   |-- fabric-item-groups-v0 0.3.1+3cc0f0907d
+	   |-- fabric-key-binding-api-v1 1.0.5+3cc0f0907d
+	   |-- fabric-keybindings-v0 0.2.2+3cc0f0907d
+	   |-- fabric-lifecycle-events-v1 1.2.2+3cc0f0907d
+	   |-- fabric-loot-tables-v1 1.0.3+3cc0f0907d
+	   |-- fabric-mining-levels-v0 0.1.4+3cc0f0907d
+	   |-- fabric-models-v0 0.3.1+3cc0f0907d
+	   |-- fabric-networking-api-v1 1.0.5+3cc0f0907d
+	   |-- fabric-networking-blockentity-v0 0.2.9+3cc0f0907d
+	   |-- fabric-networking-v0 0.3.3+3cc0f0907d
+	   |-- fabric-object-builder-api-v1 1.9.6+3cc0f0907d
+	   |-- fabric-object-builders-v0 0.7.3+3cc0f0907d
+	   |-- fabric-particles-v1 0.2.5+3cc0f0907d
+	   |-- fabric-registry-sync-v0 0.7.6+3cc0f0907d
+	   |-- fabric-renderer-api-v1 0.4.5+3cc0f0907d
+	   |-- fabric-renderer-indigo 0.4.5+3cc0f0907d
+	   |-- fabric-renderer-registries-v1 2.3.1+3cc0f0907d
+	   |-- fabric-rendering-data-attachment-v1 0.1.6+3cc0f0907d
+	   |-- fabric-rendering-fluids-v1 0.1.15+3cc0f0907d
+	   |-- fabric-rendering-v0 1.1.3+3cc0f0907d
+	   |-- fabric-rendering-v1 1.6.1+3cc0f0907d
+	   |-- fabric-resource-loader-v0 0.4.8+3cc0f0907d
+	   |-- fabric-screen-api-v1 1.0.1+3cc0f0907d
+	   |-- fabric-screen-handler-api-v1 1.1.6+3cc0f0907d
+	   |-- fabric-structure-api-v1 1.1.12+3cc0f0907d
+	   |-- fabric-tag-extensions-v0 1.1.2+3cc0f0907d
+	   |-- fabric-textures-v0 1.0.7+3cc0f0907d
+	   |-- fabric-tool-attribute-api-v1 1.2.8+3cc0f0907d
+	   \-- fabric-transfer-api-v1 1.5.0+3cc0f0907d
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- factory_api 2.0
+	   \-- team_reborn_energy 0.1.1
+	- fallingtree 2.11.7
+	- ferritecore 2.1.1
+	- java 11
+	- krypton 0.1.2
+	- lithium 0.6.6
+	- minecraft 1.16.5
+	- toms_storage 1.1.16
+	   \-- autoconfig1u 3.3.1
+	- travelersbackpack 1.16.5-5.4.38
+	   \-- reach-entity-attributes 1.1.1
+	- yigd 1.0.9
+[02:57:41] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Juegos-con-los-papachos/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[02:57:42] [main/WARN]: Reference map 'BetterFurnaces-fabric-refmap.json' for betterfurnaces.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:57:42] [main/INFO]: Loaded configuration file for Lithium: 80 options available, 1 override(s) found
+[02:57:42] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[02:57:42] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[02:57:44] [main/INFO]: Using Java 9+ class definer
+[02:57:49] [main/WARN]: Currently ForgeConfigApiPort isn't installed, to config  BetterFurnaces options, please consider install it!
+[02:57:50] [main/INFO]: Initializing Update Checker...
+[02:57:50] [BetterFurnaces Update Checker/INFO]: Starting Update Check...
+[02:57:50] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[02:57:50] [main/INFO]: Config loaded
+[02:57:50] [BetterFurnaces Update Checker/INFO]: Update Check done!
+[02:57:50] [BetterFurnaces Update Checker/INFO]: Now BetterFurnaces is updated!
+[02:57:50] [main/INFO]: Tom's Storage Setup starting
+[02:57:51] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[02:57:51] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[02:57:51] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[02:57:51] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[02:57:52] [main/INFO]: Starting datagen in: /workspaces/Juegos-con-los-papachos/src/generated/resources
+[02:57:52] [main/INFO]: Starting provider: RecipeDataProvider
+[02:57:52] [main/INFO]: RecipeDataProvider finished after 232 ms
+[02:57:52] [main/INFO]: Starting provider: LootTableDataProvider
+[02:57:52] [main/INFO]: LootTableDataProvider finished after 126 ms
+[02:57:52] [main/INFO]: All providers took: 374 ms
+[02:57:52] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[02:57:53] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:57:54] [main/WARN]: Ambiguity between arguments [tb, access, pos] and [tb, access, target] with inputs: [0 0 0]
+[02:57:54] [main/WARN]: Ambiguity between arguments [tb, unpack, pos] and [tb, unpack, target] with inputs: [0 0 0]
+[02:57:54] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:57:54] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:57:54] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:57:54] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:57:54] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:57:54] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Better Furnaces Reforged, Fabric Tool Attribute API (v1), Tom's Simple Storage Mod, Traveler's Backpack, You're in Grave Danger)
+[02:57:55] [Worker-Main-4/ERROR]: Parsing error loading recipe ultimatefurnaces:platinum_netherhot_upgrade
+com.google.gson.JsonSyntaxException: Unknown item tag 'c:platinum_ingots'
+	at net.minecraft.class_1856.method_8107(class_1856.java:171) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:225) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8159(class_1869.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[02:57:55] [Worker-Main-4/ERROR]: Parsing error loading recipe ultimatefurnaces:steel_furnace
+com.google.gson.JsonSyntaxException: Unknown item tag 'c:steel_ingots'
+	at net.minecraft.class_1856.method_8107(class_1856.java:171) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:225) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8159(class_1869.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[02:57:55] [Worker-Main-4/ERROR]: Parsing error loading recipe ultimatefurnaces:copper_furnace
+com.google.gson.JsonSyntaxException: Unknown item tag 'c:copper_ingots'
+	at net.minecraft.class_1856.method_8107(class_1856.java:171) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:225) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8159(class_1869.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[02:57:55] [Worker-Main-4/ERROR]: Parsing error loading recipe ultimatefurnaces:platinum_upgrade
+com.google.gson.JsonSyntaxException: Unknown item tag 'c:platinum_ingots'
+	at net.minecraft.class_1856.method_8107(class_1856.java:171) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:225) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8159(class_1869.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[02:57:55] [Worker-Main-4/ERROR]: Parsing error loading recipe ultimatefurnaces:amethyst_furnace
+com.google.gson.JsonSyntaxException: Unknown item tag 'c:amethyst_blocks'
+	at net.minecraft.class_1856.method_8107(class_1856.java:171) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:225) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8159(class_1869.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[02:57:55] [Worker-Main-4/ERROR]: Parsing error loading recipe yigd:tp_scroll
+com.google.gson.JsonSyntaxException: Unknown item tag 'minecraft:candles'
+	at net.minecraft.class_1856.method_8107(class_1856.java:171) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:225) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8159(class_1869.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[02:57:55] [Worker-Main-4/ERROR]: Parsing error loading recipe ultimatefurnaces:copper_iron_upgrade
+com.google.gson.JsonSyntaxException: Unknown item tag 'c:copper_ingots'
+	at net.minecraft.class_1856.method_8107(class_1856.java:171) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:225) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8159(class_1869.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[02:57:55] [Worker-Main-4/ERROR]: Parsing error loading recipe ultimatefurnaces:copper_forge
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:copper_ingot'
+	at net.minecraft.class_1856.method_17873(class_1856.java:165) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:165) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:225) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8159(class_1869.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[02:57:55] [Worker-Main-4/ERROR]: Parsing error loading recipe ultimatefurnaces:platinum_furnace
+com.google.gson.JsonSyntaxException: Unknown item tag 'c:platinum_ingots'
+	at net.minecraft.class_1856.method_8107(class_1856.java:171) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:225) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8159(class_1869.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[02:57:55] [Worker-Main-4/ERROR]: Parsing error loading recipe ultimatefurnaces:amethyst_diamond_upgrade
+com.google.gson.JsonSyntaxException: Unknown item tag 'c:amethysts'
+	at net.minecraft.class_1856.method_8107(class_1856.java:171) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:225) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8159(class_1869.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[02:57:55] [Worker-Main-4/ERROR]: Parsing error loading recipe ultimatefurnaces:amethyst_upgrade
+com.google.gson.JsonSyntaxException: Unknown item tag 'c:amethyst_blocks'
+	at net.minecraft.class_1856.method_8107(class_1856.java:171) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:225) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8159(class_1869.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[02:57:55] [Worker-Main-4/ERROR]: Parsing error loading recipe ultimatefurnaces:copper_upgrade
+com.google.gson.JsonSyntaxException: Unknown item tag 'c:copper_ingots'
+	at net.minecraft.class_1856.method_8107(class_1856.java:171) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:225) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8159(class_1869.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[02:57:55] [Worker-Main-4/ERROR]: Parsing error loading recipe ultimatefurnaces:steel_upgrade
+com.google.gson.JsonSyntaxException: Unknown item tag 'c:steel_ingots'
+	at net.minecraft.class_1856.method_8107(class_1856.java:171) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:225) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8159(class_1869.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[02:57:55] [Worker-Main-4/INFO]: Loaded 8 recipes
+[02:57:56] [Worker-Main-4/ERROR]: Parsing error loading custom advancement toms_storage:unlock_netherite: Unknown item id 'minecraft:netherite'
+[02:57:56] [Worker-Main-4/INFO]: Loaded 1123 advancements
+[02:57:56] [Worker-Main-4/INFO]: Reloading graveyard
+[02:58:00] [main/INFO]: Applied 0 biome modifications to 0 of 79 new biomes in 1.716 ms
+[02:58:00] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[02:58:00] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[02:58:00] [Server thread/INFO]: Loading properties
+[02:58:00] [Server thread/INFO]: Default game type: SURVIVAL
+[02:58:00] [Server thread/INFO]: Generating keypair
+[02:58:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:58:01] [Server thread/INFO]: Using epoll channel type
+[02:58:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:58:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:58:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:58:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:58:01] [Server thread/INFO]: Preparing level "world"
+[02:58:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:58:04] [Server thread/INFO]: Preparing spawn area: 0%
+[02:58:04] [Server thread/INFO]: Preparing spawn area: 0%
+[02:58:04] [Server thread/INFO]: Preparing spawn area: 0%
+[02:58:04] [Server thread/INFO]: Preparing spawn area: 0%
+[02:58:04] [Server thread/INFO]: Preparing spawn area: 0%
+[02:58:04] [Server thread/INFO]: Preparing spawn area: 0%
+[02:58:05] [Server thread/INFO]: Preparing spawn area: 6%
+[02:58:05] [Server thread/INFO]: Time elapsed: 3521 ms
+[02:58:05] [Server thread/INFO]: Done (3.893s)! For help, type "help"
+[02:58:32] [Server thread/INFO]: BerberUga[/10.127.106.106:63802] logged in with entity id 54 at (-1774.587952304537, 122.0, 334.84493142694885)
+[02:58:32] [Server thread/INFO]: BerberUga joined the game
+[02:58:33] [Netty Epoll Server IO #4/INFO]: Priority overwritten for player BerberUga. Normal: GRAVE / Robbing: INVENTORY
+[03:01:07] [Server thread/INFO]: [BerberUga: Gave 999 experience points to BerberUga]
+[03:01:09] [Server thread/INFO]: [BerberUga: Gave 999 experience points to BerberUga]
+[03:06:31] [Server thread/INFO]: BerberUga was blown up by Creeper
+[03:06:31] [Server thread/INFO]: [Yigd] Grave spawned at: -1496, 93, -90 | overworld
+[03:06:38] [Server thread/INFO]: [BerberUga: Teleported BerberUga to -1495.5, 93.5, -86.5]
+[03:06:39] [Server thread/INFO]: Grave at -1496, 93, -90 was replaced with Block{minecraft:air}
+[03:06:39] [Server thread/INFO]: BerberUga is retrieving their grave at -1496, 93, -90
+[03:06:39] [Server thread/INFO]: BerberUga retrieved the items from the grave
+[03:06:43] [Server thread/INFO]: [BerberUga: Set own game mode to Spectator Mode]
+[03:06:44] [Server thread/INFO]: [BerberUga: Set own game mode to Survival Mode]
+[03:06:45] [Server thread/INFO]: [BerberUga: Set own game mode to Spectator Mode]
+[03:06:47] [Server thread/INFO]: [BerberUga: Set own game mode to Survival Mode]
+[03:06:49] [Server thread/INFO]: [BerberUga: Set own game mode to Creative Mode]
+[03:06:51] [Server thread/INFO]: [BerberUga: Gave 999 experience points to BerberUga]
+[03:07:14] [Server thread/INFO]: [BerberUga: Set own game mode to Survival Mode]
+[03:07:17] [Server thread/INFO]: [BerberUga: Gave 999 experience points to BerberUga]
